@@ -64,9 +64,9 @@ export default function TodosPage() {
     }
 
     return (
-        <div className="flex min-h-screen w-full items-center justify-center bg-[#eaedf0] p-4 sm:p-8 md:p-12 dark:bg-zinc-950 transition-colors">
+        <div className="flex min-h-screen w-full items-start sm:items-center justify-center bg-white sm:bg-[#eaedf0] p-0 sm:p-8 md:p-12 dark:bg-zinc-900 sm:dark:bg-zinc-950 transition-colors">
             {/* 1. KHUNG GỐC TO (Khung bảng trắng lớn bo góc tròn mềm như mockup Desktop bên trái) */}
-            <div className="flex w-full max-w-[860px] min-h-[580px] items-center justify-center rounded-[32px] border border-zinc-200/60 bg-white p-6 sm:p-12 shadow-[0_10px_40px_rgba(0,0,0,0.03)] dark:border-zinc-800 dark:bg-zinc-900 transition-all">
+            <div className="flex w-full sm:max-w-[860px] min-h-screen sm:min-h-[580px] items-start sm:items-center justify-center rounded-none sm:rounded-[32px] border-0 sm:border sm:border-zinc-200/60 bg-white px-6 pt-12 pb-6 sm:p-12 shadow-none sm:shadow-[0_10px_40px_rgba(0,0,0,0.03)] dark:border-zinc-800 dark:bg-zinc-900 transition-all">
 
                 {/* 2. FORM TO-DO NHỎ GỌN (Chiều rộng cố định ~350px đặt ngay chính giữa khung gốc) */}
                 <main className="w-full max-w-[350px]">
